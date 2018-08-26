@@ -52,8 +52,6 @@ This tutorial depends on the following libraries:
 * Keras >= 2.0
 * scikit-image >= 0.13
 
-Also, this code should be compatible with Python versions 2.7-3.5.
-
 ### Run main.py
 
 You will see the predicted results of test image in data/membrane/test
