@@ -1,10 +1,12 @@
-# Implementation of deep learning framework -- Unet, using Keras
+# Implementation of deep learning framework - U-Net, using Keras
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
 ---
 
 ## Overview
+
+Slightly modified version of U-Net deep neural network originally implemented by [@zhixuhao](https://github.com/zhixuhao)
 
 ### Data
 
@@ -45,8 +47,10 @@ Loss function for the training is basically just a binary crossentropy.
 
 This tutorial depends on the following libraries:
 
-* Tensorflow
-* Keras >= 1.0
+* Python >= 3.6
+* Tensorflow >= 1.3
+* Keras >= 2.0
+* scikit-image >= 0.13
 
 Also, this code should be compatible with Python versions 2.7-3.5.
 
